@@ -4,19 +4,7 @@
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
-To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
-
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
-
-[💬 Telegram](https://t.me/hashlipsnft)
-
-[🐦 Twitter](https://twitter.com/hashlipsnft)
-
-[ℹ️ Website](https://hashlips.online/HashLips)
-
-# HashLips Art Engine 🔥
+# HashLips Art Engine(Add None.png Layer)
 
 ![](https://github.com/HashLips/hashlips_art_engine/blob/main/banner.png)
 
@@ -309,5 +297,9 @@ Trait type: Top lid
   occurrence: '14 in 20 editions (70.00 %)'
 }
 ```
+
+### Supports None.png blank layer
+
+Sometimes we don't need a certain layer, you can add a None.png blank image in the layer folder. I modified the main.js code, when writing the metadata json file, the None attribute will be skipped.
 
 Hope you create some awesome artworks with this code 👄
